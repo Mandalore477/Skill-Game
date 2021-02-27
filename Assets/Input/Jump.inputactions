@@ -1,0 +1,33 @@
+{
+    "name": "Jump",
+    "maps": [
+        {
+            "name": "New action map",
+            "id": "a2a191b1-7e27-43d1-9522-24365a1c1607",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "1bae8364-37c0-4716-beb0-d4c78ce96089",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "98602a27-c81d-41b4-8de9-586015cb2f83",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
