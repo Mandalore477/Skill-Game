@@ -9,6 +9,10 @@ namespace Skills
         // Start is called before the first frame update
         void Start()
         {
+            skillNameLow_s = "Dirt Resistance";
+            skillNameMid_s = "Earth Resistance";
+            skillNameHigh_s = "Terra Resistance";
+            skillNameMax_s = "Terra Immunity";
             SetResistance();
         }
 

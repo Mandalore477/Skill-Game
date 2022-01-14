@@ -8,6 +8,10 @@ namespace Skills
         // Start is called before the first frame update
         void Start()
         {
+            skillNameLow_s = "Spark Resistance";
+            skillNameMid_s = "Lightning Resistance";
+            skillNameHigh_s = "Storm Resistance";
+            skillNameMax_s = "Storm Immunity";
             SetResistance();
         }
 

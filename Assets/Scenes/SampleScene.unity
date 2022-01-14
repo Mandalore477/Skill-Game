@@ -159,6 +159,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skillName_s: ' '
+  skillNameLow_s: ' '
+  skillNameMid_s: ' '
+  skillNameHigh_s: ' '
+  skillNameMax_s: ' '
   skillLv_i: 0
   skillExp_f: 0
   expRequired: 0
@@ -195,6 +199,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skillName_s: ' '
+  skillNameLow_s: ' '
+  skillNameMid_s: ' '
+  skillNameHigh_s: ' '
+  skillNameMax_s: ' '
   skillLv_i: 0
   skillExp_f: 0
   expRequired: 0
@@ -217,6 +225,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skillName_s: ' '
+  skillNameLow_s: ' '
+  skillNameMid_s: ' '
+  skillNameHigh_s: ' '
+  skillNameMax_s: ' '
   skillLv_i: 0
   skillExp_f: 0
   expRequired: 100
@@ -239,6 +251,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skillName_s: ' '
+  skillNameLow_s: ' '
+  skillNameMid_s: ' '
+  skillNameHigh_s: ' '
+  skillNameMax_s: ' '
   skillLv_i: 0
   skillExp_f: 0
   expRequired: 100
@@ -261,6 +277,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skillName_s: ' '
+  skillNameLow_s: ' '
+  skillNameMid_s: ' '
+  skillNameHigh_s: ' '
+  skillNameMax_s: ' '
   skillLv_i: 0
   skillExp_f: 0
   expRequired: 100
@@ -283,6 +303,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skillName_s: ' '
+  skillNameLow_s: ' '
+  skillNameMid_s: ' '
+  skillNameHigh_s: ' '
+  skillNameMax_s: ' '
   skillLv_i: 0
   skillExp_f: 0
   expRequired: 100
@@ -305,6 +329,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skillName_s: ' '
+  skillNameLow_s: ' '
+  skillNameMid_s: ' '
+  skillNameHigh_s: ' '
+  skillNameMax_s: ' '
   skillLv_i: 1
   skillExp_f: 10000
   expRequired: 100
@@ -347,12 +375,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7685d3cbd946f3e4eb7cb849dbe39890, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireDmg_f: 1000
-  lightningDmg_f: 1000
-  iceDmg_f: 1000
-  earthDmg_f: 1000
-  windDmg_f: 1000
-  darkDmg_f: 1000
+  fireDmg_f: 10
+  lightningDmg_f: 5
+  iceDmg_f: 0
+  earthDmg_f: 1
+  windDmg_f: 4
+  darkDmg_f: 0
   tickDmgTimer: 2
   timer: 0
 --- !u!65 &464063936
@@ -591,8 +619,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 853e7d5b6cf876841a5eac7f0a8faffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth_f: 10000
-  health_f: 10000
+  maxHealth_f: 500
+  health_f: 500
   totalDamage_f: 0
   HealthRegen: {fileID: 343727840}
   FireResistance: {fileID: 343727835}
